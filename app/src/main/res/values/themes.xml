@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.cashnbills" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="drawerArrowStyle">@style/DrawerIconStyle</item>
+
+        <!-- Apply Montserrat font to all text elements -->
+        <item name="android:textAppearance">@style/TextAppearance.App.Custom</item>
+    </style>
+
+    <style name="Theme.cashnbills" parent="Base.Theme.cashnbills" />
+
+    <style name="DrawerIconStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/white</item>
+    </style>
+
+    <!-- Define a TextAppearance style that uses Montserrat -->
+    <style name="TextAppearance.App.Custom" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/font_family_montserrat</item>
+    </style>
+</resources>

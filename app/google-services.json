@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "3572899544",
+    "project_id": "cash-n-bills",
+    "storage_bucket": "cash-n-bills.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3572899544:android:e6cf506ee27a9420d781ad",
+        "android_client_info": {
+          "package_name": "com.example.cashnbills"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8EPUiMXSOhl77RM9t3lojaduxH-VV_IU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
